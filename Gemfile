@@ -3,6 +3,7 @@ source "https://rubygems.org"
 ruby "2.2.1"
 
 gem "rails", "4.2.5.1"
+gem "sqlite3"
 gem "whowas", "~> 0.1"
 
 group :development, :test do
