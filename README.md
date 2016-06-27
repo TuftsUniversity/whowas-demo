@@ -9,6 +9,7 @@ The purpose of this demo is not to give you a fully-functional app to use; rathe
 ## What should I look at?
 
 Useful files and folders include:
+
     * app/apis/
     * app/models/whowas_search.rb
     * app/recipes/
