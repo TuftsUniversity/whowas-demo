@@ -4,7 +4,7 @@ module Whowas
   class Bluecat
     # Whowas::Api provides the public interface to your API, accessed through the
     # "search" instance method.
-    include Whowas::Api
+    include Whowas::Adapter
     
     @@client = nil
     @@cookie = nil
@@ -64,11 +64,11 @@ module Whowas
     # Replace "true" with your validation code.
     def validate(input)
       (input[:mac] && true) ||
-      (raise Whowas::Errors::InvalidInput, "Invalid input for Bluecat API")
+      (raise Whowas::Errors::InvalidInput, "Invalid input for Bluecat")
     end
     
     # Transforms input one last time before API call.
-    # Will be called on input for all search_methods using this API.
+    # Will be called on input for all search_methods using this adapter.
     # For search_method-specific transformations, use the format_input method
     # in your search_method.
     def format(input)

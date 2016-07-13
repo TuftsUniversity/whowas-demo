@@ -8,11 +8,11 @@ Whowas.configuration do |config|
   # An example of a full recipe table:
   #
   config.recipe_table = {
-    "192.168.1.0/24": "Whowas.secure_wifi",
-    "10.0.0.0/8": "Whowas.vpn",
-    ip_default: "Whowas.ip_default",
-    mac_default: "Whowas.registered_mac",
-    default: "Whowas.ip_default"
+    "192.168.1.0/24": "secure_wifi",
+    "10.0.0.0/8": "vpn",
+    ip_default: "ip_default",
+    mac_default: "registered_mac",
+    default: "ip_default"
   }
 
   

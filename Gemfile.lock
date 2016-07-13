@@ -176,7 +176,7 @@ GEM
     wasabi (3.5.0)
       httpi (~> 2.0)
       nokogiri (>= 1.4.2)
-    whowas (0.1.4)
+    whowas (0.2.0)
       middleware
       splunk-sdk-ruby
 
@@ -196,7 +196,10 @@ DEPENDENCIES
   simplecov (~> 0.10)
   spring (~> 1.4)
   sqlite3
-  whowas (~> 0.1)
+  whowas (~> 0.2)
+
+RUBY VERSION
+   ruby 2.3.1p112
 
 BUNDLED WITH
-   1.10.6
+   1.12.5
