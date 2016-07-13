@@ -10,6 +10,7 @@ gem "whowas", "~> 0.1"
 group :development, :test do
   gem "byebug", "~> 8.2"
   gem "database_cleaner", "~> 1.5"
+  gem "dotenv-rails", require: false
   gem "factory_girl_rails", "~> 4.5"
   gem "pry-rails", "~> 0.3"
   gem "rspec-rails", "~> 3.4"
