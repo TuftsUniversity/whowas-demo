@@ -7,7 +7,7 @@ module Whowas
     # the input of the next.
     ::Middleware::Builder.new do
       use Dhcp
-      use BluecatMac
+      use Clearpass
     end
   end
 end
