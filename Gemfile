@@ -5,12 +5,11 @@ ruby "2.3.1"
 gem "rails", "4.2.5.1"
 gem "savon"
 gem "sqlite3"
-gem "whowas", "~> 0.2"
 
 group :development, :test do
   gem "byebug", "~> 8.2"
   gem "database_cleaner", "~> 1.5"
-  gem "dotenv-rails", require: false
+  gem "dotenv-rails", :require => 'dotenv/rails-now'
   gem "factory_girl_rails", "~> 4.5"
   gem "pry-rails", "~> 0.3"
   gem "rspec-rails", "~> 3.4"
@@ -19,3 +18,4 @@ group :development, :test do
   gem "spring", "~> 1.4"
 end
 
+gem "whowas", "~> 0.2"
